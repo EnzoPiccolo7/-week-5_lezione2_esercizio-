@@ -1,0 +1,79 @@
+html {
+    background-color: beige;
+
+}
+ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    border: 2px red solid;
+    border-radius: 10%;
+    height: 37rem;
+    width: 18rem;
+    box-shadow: 4px 2px 4px 5px black;
+
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+#card {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.2rem;
+
+    
+}
+#card > li:nth-child(1) {
+    background: url(../img/s21.jpg) no-repeat center ;
+    background-size: contain;
+
+    
+}
+  
+  
+  #card > li:nth-child(2) {
+    background: url(../img/s20.jpg) no-repeat center;
+    background-size: contain;
+    
+
+  }
+  
+ 
+  
+  #card > li:nth-child(3) {
+      background: url(../img/GalaxyS10Lite-1.jpg) no-repeat center;
+      background-size: contain;
+
+    }
+
+  
+  #card > li:nth-child(4) {
+    background: url(../img/712aHRi7eGL._AC_SL1500_.jpg) no-repeat center;
+    background-size: contain;
+
+}
+#card > li:nth-child(5) {
+    background: url(../img/s22.jpg) no-repeat center;
+    background-size: contain;
+
+}
+div input {
+    background-color: brown;
+    font-size: 2rem; 
+    color: #08ebf3;
+    border-radius: 35%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 4px 2px 4px 5px black;
+  }
+
+body > div:nth-child(3) {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   }
+   
