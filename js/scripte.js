@@ -15,37 +15,40 @@ let samsung2 = 80;
 let samsung3 = 50;
 let samsung4 = 120;
 let budget1 = 500;
+let importo;
 document.getElementById("budget").innerHTML = "BUDGET " + budget1 + "euro";
 
-function bottone1(importo) {
-    let risultato1;
-    risultato1 = budget1 - samsung1;
+function addto(){
+    if(importo = "risul1" ){
+        "budget".innerHTML = "BUDGET " + risultato1 + "euro";
+    } else {
+        alert("hai finito i soldi")
+    }
+ 
+}
+
+
+function bottone1() {
+    let risultato1 = budget1 - samsung1;
     document.getElementById("budget").innerHTML = "BUDGET " + risultato1 + "euro";
     window.alert("Hai acquistato un fantastico Samsung S21!!!")
-    return budget1;
-    
-    
+    importo = "risul1";
+    return risultato1;
 }
-function importo() {
-    
-}
-function bottone2(importo) {
-    let risultato2;
-    risultato2 = budget1 - samsung2;
+function bottone2() {
+    let risultato2 = budget1 - samsung2;
     document.getElementById("budget").innerHTML = "BUDGET " + risultato2 + "euro";
     window.alert("Hai acquistato un fantastico Samsung S20!!!")
     return budget1;
 }
-function bottone3(budget1 = 500) {
-    let risultato3;
-    risultato3 = budget1 - samsung3;
+function bottone3() {
+    let risultato3 = budget1 - samsung3;
     document.getElementById("budget").innerHTML = "BUDGET " + risultato3 + "euro";
     window.alert("Hai acquistato un fantastico Samsung S20!!!")
     return budget1;
 }
-function bottone4(budget1 = 500) {
-    let risultato4;
-    risultato4 = budget1 - samsung4;
+function bottone4() {
+    let risultato4 = budget1 - samsung4;
     document.getElementById("budget").innerHTML = "BUDGET " + risultato4 + "euro";
     window.alert("Hai acquistato un fantastico Samsung S20!!!")
     return budget1;
